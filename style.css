@@ -11,7 +11,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
-    background-color: #0000007E ;
+    background-color: #0000007e ;
     background-blend-mode: darken;
     display: flex;
     justify-content: center;
@@ -27,6 +27,27 @@ main{
     gap: 20px;
 }
 h1{
-    color: #000000;
-    font-size: 100px;
+    color: #ebe4e4;
+    font-size: clamp(40px, 10vw, 120px);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.apresentacao{
+    color:#FFFFFF;
+    font-size: clamp(10px, 5vw, 60px);
+    font-family: 'Montserrat', sans-serif;
+    font-weight:  400;
+    font-style: italic;
+
+
+}
+#informacoes{
+    width:150px;
+    height: 40px;
+    background-color: #fae12c;
+    border-style: none;
+    border-radius: 5px;
+
+    
 }
