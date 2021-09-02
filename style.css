@@ -7,7 +7,7 @@
 body{
     width: 100vw;
     height: 100vh;
-    background-image: url(background.png) ;
+    background-image: url(glitter-04.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
@@ -20,7 +20,7 @@ body{
 
 main{
     
-    display: flex;
+    display: inline-block;
     justify-content:center ;
     align-items: center;
     flex-direction: column;
@@ -29,14 +29,14 @@ main{
 h1{
     color: #ebe4e4;
     font-size: clamp(40px, 10vw, 120px);
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight: 400;
 }
 
 .apresentacao{
     color:#FFFFFF;
     font-size: clamp(10px, 5vw, 60px);
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
     font-weight:  400;
     font-style: italic;
 
@@ -50,4 +50,18 @@ h1{
     border-radius: 5px;
 
     
+}
+#infor{
+    width:150px;
+    height: 40px;
+    background-color: #2e5d92;
+    border-style: none;
+    border-radius: 5px;
+}
+#macoes{
+    width:150px;
+    height: 40px;
+    background-image: linear-gradient(to bottom, #6a1392,#d1245e, #c25a29, #cab122 );
+    border-style: none;
+    border-radius: 5px;
 }
